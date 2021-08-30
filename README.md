@@ -1,1 +1,7 @@
 # Stock-Analysis
+## Overview of Project 
+The purpose of this project is to find a way to analyze stock data for twelve different tickers between 2017 and 2018. The performance will be analyzed in terms of volume and returns on each stock written in VBA. The goal was to write the code and then refactor it to give us a faster result. 
+## Results 
+The code is written to chart the tickers giving us the volume and returns whether they were a positive or negative investment, showing us profits and losses respectively. A part of the code was to indicate by color if the return was positive (green) or if the returns were negative (red). The results were flawed as it was difficult to pinpoint the errors that caused the volume left unchanged when running an analysis on the stocks by year. The return on investment however, showed change and it would be determined the best investments were to be conducted in 2017, rather than 2018, due to most tickers giving a negative return in 2018. 
+## Summary
+In the end, I was unable to find the error in running the code. The times to run for each year was less than a second however I would expect it to run much longer between 1-2 seconds if the code was functioning properly. This is because the charts would indicate color as well as sorting the volume and percentage. Altogether it would seem unlikely for it to run under a second each year. Refactoring did not help, which would make sense as the process required a working code to begin with as refactoring is just a way to make a faster running process. 
